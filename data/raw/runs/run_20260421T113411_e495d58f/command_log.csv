@@ -1,0 +1,2 @@
+run_id,timestamp,command_type,command_value,duration_ms
+run_20260421T113411_e495d58f,2026-04-21T11:34:11.497795+00:00,FORWARD,forward,1000

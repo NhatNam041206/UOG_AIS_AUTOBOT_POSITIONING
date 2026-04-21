@@ -1,0 +1,11 @@
+{
+  "run_id": "run_20260421T113411_e495d58f",
+  "route_id": "A_TO_B_MAIN",
+  "total_elapsed_time_sec": 7.106777,
+  "abstract_step_count": 8,
+  "estimated_step_time_sec": 0.888347125,
+  "accepted_for_stats": true,
+  "rejection_reason": "",
+  "anomaly_flags": [],
+  "quality_score": 1.0
+}
