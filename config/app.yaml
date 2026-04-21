@@ -1,0 +1,17 @@
+project_name: robot_time_baseline
+data_directories:
+  raw_runs: data/raw/runs
+  route_definitions: data/raw/route_definitions
+  run_summaries: data/processed/run_summaries
+  accepted_runs: data/processed/accepted_runs.csv
+  rejected_runs: data/processed/rejected_runs.csv
+  route_stats: data/processed/route_stats.csv
+  step_time_model: data/processed/step_time_model.json
+  export_csv: data/exports/csv
+  export_parquet: data/exports/parquet
+  export_reports: data/exports/reports
+output_directories:
+  figures: outputs/figures
+  tables: outputs/tables
+  summaries: outputs/summaries
+timezone: UTC

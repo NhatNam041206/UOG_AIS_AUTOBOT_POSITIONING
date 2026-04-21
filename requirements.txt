@@ -1,0 +1,6 @@
+pydantic>=2.7,<3.0
+pandas>=2.2,<3.0
+matplotlib>=3.8,<4.0
+PyYAML>=6.0,<7.0
+pytest>=8.2,<9.0
+pyarrow>=16.0,<20.0

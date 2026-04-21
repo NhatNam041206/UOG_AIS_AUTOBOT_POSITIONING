@@ -1,0 +1,6 @@
+routes:
+  - route_id: A_TO_B_MAIN
+    start_point: A
+    end_point: B
+    abstract_step_count: 8
+    description: Main baseline route from point A to point B using abstract steps.

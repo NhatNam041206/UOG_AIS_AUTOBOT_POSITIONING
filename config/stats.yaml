@@ -1,0 +1,9 @@
+duration_thresholds:
+  min_total_time_sec: 1.0
+  max_total_time_sec: 600.0
+outlier:
+  method: zscore
+  zscore_threshold: 2.5
+  iqr_multiplier: 1.5
+moving_average_window: 3
+confidence_level: 0.95

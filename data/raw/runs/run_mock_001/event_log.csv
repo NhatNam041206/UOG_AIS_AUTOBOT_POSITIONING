@@ -1,0 +1,4 @@
+run_id,event_time,event_type,event_value,source,comment
+run_mock_001,2026-04-20T10:00:00+00:00,RUN_STARTED,1,system,run initialized
+run_mock_001,2026-04-20T10:00:01+00:00,FORWARD_COMMAND_SENT,forward,controller,forward command issued
+run_mock_001,2026-04-20T10:00:12+00:00,RUN_STOPPED,1,system,run finalized
