@@ -84,7 +84,7 @@ class EDAVisualizer:
         grouped = [g["total_elapsed_time_sec"].dropna().tolist() for _, g in plot_df.groupby("route_id")]
         labels = [str(rid) for rid, _ in plot_df.groupby("route_id")]
         if grouped:
-            ax.boxplot(grouped, labels=labels)
+            ax.boxplot(grouped, tick_labels=labels)
         ax.set_title("Boxplot of total elapsed time by route")
         fig.tight_layout()
         fig.savefig(self.figures_dir / "boxplot_total_time_by_route.png")

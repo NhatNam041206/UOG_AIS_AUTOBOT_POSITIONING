@@ -14,15 +14,24 @@ class StatsEngine:
 
     @staticmethod
     def mean(values: pd.Series) -> float | None:
-        return None if values.empty else float(values.mean())
+        if values.empty:
+            return None
+        value = float(values.mean())
+        return None if pd.isna(value) else value
 
     @staticmethod
     def std(values: pd.Series) -> float | None:
-        return None if values.empty else float(values.std(ddof=1))
+        if values.empty:
+            return None
+        value = float(values.std(ddof=1))
+        return None if pd.isna(value) else value
 
     @staticmethod
     def median(values: pd.Series) -> float | None:
-        return None if values.empty else float(values.median())
+        if values.empty:
+            return None
+        value = float(values.median())
+        return None if pd.isna(value) else value
 
     @staticmethod
     def min_max(values: pd.Series) -> tuple[float | None, float | None]:

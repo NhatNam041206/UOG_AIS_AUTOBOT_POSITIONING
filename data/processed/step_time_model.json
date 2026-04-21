@@ -1,1 +1,14 @@
-{}
+{
+  "A_TO_B_MAIN": {
+    "route_id": "A_TO_B_MAIN",
+    "valid_run_count": 1,
+    "mean_total_time_sec": 12.0,
+    "std_total_time_sec": null,
+    "mean_step_time_sec": 1.5,
+    "std_step_time_sec": null,
+    "median_step_time_sec": 1.5,
+    "start_offset_sec": 0.5,
+    "stop_offset_sec": 0.5,
+    "last_updated_at": "2026-04-21T11:17:48.205335Z"
+  }
+}

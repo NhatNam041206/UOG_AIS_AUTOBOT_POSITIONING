@@ -28,15 +28,6 @@ class RunManager:
             writer = csv.DictWriter(handle, fieldnames=columns)
             writer.writeheader()
 
-    def _append_csv_row(self, path: Path, row: dict[str, str | int | float]) -> None:
-        with path.open("a", encoding="utf-8", newline="") as handle:
-            reader = csv.reader(handle)
-            header = next(reader, None)
-        with path.open("a", encoding="utf-8", newline="") as handle:
-            if header:
-                writer = csv.DictWriter(handle, fieldnames=header)
-                writer.writerow(row)
-
     def start_run(self, route_id: str, trial_id: str | None = None, notes: list[str] | None = None) -> RunManifest:
         """Start a run and initialize raw artifacts."""
         route = self.route_manager.get_route(route_id)
