@@ -1,0 +1,3 @@
+run_id,route_id,total_elapsed_time_sec,abstract_step_count,estimated_step_time_sec,accepted_for_stats,rejection_reason,anomaly_flags,quality_score
+run_20260421T113411_e495d58f,A_TO_B_MAIN,,8,,False,missing_start_or_end_timestamp,[],0.8
+run_mock_002,A_TO_B_MAIN,3.0,8,0.375,False,interrupted_run,[],0.8

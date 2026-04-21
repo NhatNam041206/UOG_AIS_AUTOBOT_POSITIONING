@@ -1,0 +1,12 @@
+{
+  "run_id": "run_mock_002",
+  "trial_id": "trial_A_TO_B_MAIN_002",
+  "route_id": "A_TO_B_MAIN",
+  "start_point": "A",
+  "end_point": "B",
+  "abstract_step_count": 8,
+  "started_at": "2026-04-20T10:05:00+00:00",
+  "ended_at": "2026-04-20T10:05:03+00:00",
+  "status": "INTERRUPTED",
+  "notes": ["operator stopped due to obstacle"]
+}

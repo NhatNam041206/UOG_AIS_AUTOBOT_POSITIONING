@@ -1,0 +1,2 @@
+run_id,timestamp,command_type,command_value,duration_ms
+run_mock_001,2026-04-20T10:00:01+00:00,FORWARD,forward,1000

@@ -194,6 +194,20 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 
+# Generated baseline artifacts
+data/exports/csv/*
+!data/exports/csv/.gitkeep
+data/exports/parquet/*
+!data/exports/parquet/.gitkeep
+data/exports/reports/*
+!data/exports/reports/.gitkeep
+outputs/figures/*
+!outputs/figures/.gitkeep
+outputs/tables/*
+!outputs/tables/.gitkeep
+outputs/summaries/*
+!outputs/summaries/.gitkeep
+
 # Cursor
 #  Cursor is an AI-powered code editor. `.cursorignore` specifies files/directories to
 #  exclude from AI features like autocomplete and code analysis. Recommended for sensitive data

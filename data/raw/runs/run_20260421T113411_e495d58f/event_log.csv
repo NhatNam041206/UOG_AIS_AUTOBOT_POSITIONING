@@ -1,0 +1,4 @@
+run_id,event_time,event_type,event_value,source,comment
+run_20260421T113411_e495d58f,2026-04-21T11:34:11.497678+00:00,RUN_STARTED,1,system,run initialized
+run_20260421T113411_e495d58f,2026-04-21T11:34:11.497743+00:00,FORWARD_COMMAND_SENT,forward,controller,initial movement command
+run_20260421T113411_e495d58f,2026-04-21T11:34:18.604113+00:00,RUN_STOPPED,1,system,run finalized

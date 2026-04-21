@@ -1,0 +1,4 @@
+run_id,event_time,event_type,event_value,source,comment
+run_mock_002,2026-04-20T10:05:00+00:00,RUN_STARTED,1,system,run initialized
+run_mock_002,2026-04-20T10:05:02+00:00,MANUAL_INTERRUPT,1,operator,manual interruption
+run_mock_002,2026-04-20T10:05:03+00:00,RUN_STOPPED,1,system,run finalized

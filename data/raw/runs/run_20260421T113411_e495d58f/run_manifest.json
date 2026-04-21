@@ -1,0 +1,15 @@
+{
+  "run_id": "run_20260421T113411_e495d58f",
+  "trial_id": "trial_evidence_001",
+  "route_id": "A_TO_B_MAIN",
+  "start_point": "A",
+  "end_point": "B",
+  "abstract_step_count": 8,
+  "started_at": "2026-04-21T11:34:11.497078Z",
+  "ended_at": "2026-04-21T11:34:18.603855Z",
+  "status": "COMPLETED",
+  "notes": [
+    "evidence test",
+    "evidence test done"
+  ]
+}
